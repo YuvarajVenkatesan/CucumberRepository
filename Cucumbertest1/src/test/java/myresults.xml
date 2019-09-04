@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.0199">
+<testcase classname="This is login function" name="Login" time="0.016413">
+<system-out><![CDATA[Given I want to login.......................................................passed
+When I enter the username "uv" in the user field............................passed
+And password "pass123" in the password field................................passed
+And I click on login button.................................................passed
+Then Homepage is displayed..................................................passed
+And status "pass" is displayed..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This is login function" name="Login_2" time="0.003487">
+<system-out><![CDATA[Given I want to login.......................................................passed
+When I enter the username "ram" in the user field...........................passed
+And password "pass123" in the password field................................passed
+And I click on login button.................................................passed
+Then Homepage is displayed..................................................passed
+And status "fail" is displayed..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
